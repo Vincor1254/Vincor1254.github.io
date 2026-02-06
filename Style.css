@@ -1,42 +1,59 @@
 body{
     width: 95vw;
     height: 100vh;
+   
+
+  background-color: rgb(168, 218, 235); /* valfri färg */
 }
+
+
 
 header{
     grid-area: h;
-    background-color: darkgreen;
-color: white;
+    background-color: rgb(168, 218, 235);
+    color: black;
+    padding-left: 25%;
 }
 
 main{
 grid-area: m;
-background-color: royalblue;
-color: white;
+background-color:  rgb(168, 218, 235);
+color: black;
+ font-size: 1.2rem;
 
 }
 
 aside{
 grid-area: a;
-background-color: black;
-color: white;
+background-color:   rgb(168, 218, 235);
+color: black;
 }
 
 footer{
 grid-area: f;
-background-color: peru;
-color: white;
+background-color:  rgb(168, 218, 235);
+color: black;
 }
+
+#bildb{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 nav{
 grid-area: n;
-background-color: salmon;
-color: white;
+background-color:  rgb(168, 218, 235);
+color: black;
+ font-size: 1.2rem;
 
 }
 .info{
 grid-area: i;
-background-color: rgb(160, 82, 73);
-color: white;
+background-color:  rgb(168, 218, 235);
+color: black;
+ font-size: 1.2rem;
 
 }
 #container{
@@ -48,7 +65,7 @@ grid-template-rows: 25% 25% 25% 25%;
 
 grid-template-areas: 
 
-"h h h h h"
+". h h h ."
 "a a . f f"
 "n n . i i"
 "m m m m m";
